@@ -9,7 +9,6 @@ for i in range(4):
     inp = input(perguntas[i])
     respostas.append(inp)
     if inp == "sim":
-        
         positivas = positivas + 1
 
 print(f"Respostas: {respostas}")
